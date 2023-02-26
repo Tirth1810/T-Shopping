@@ -48,7 +48,6 @@ class Home : AppCompatActivity() {
         var Nodata: LottieAnimationView? = null
         var Frag_gs: ArrayList<Frag_Gs?>? = null
         var Body_gs: ArrayList<Body_Gs?>? = null
-        var Hair_Gs: ArrayList<Hair_Gs?>? = null
         var Face_gs: ArrayList<Face_Gs?>? = null
         var filter: ImageView? = null
         var Search_main: ImageView? = null
@@ -297,13 +296,14 @@ class Home : AppCompatActivity() {
         supportActionBar!!.hide()
         databaseReference = FirebaseDatabase.getInstance().getReference("Hair")
         Hair_rv.setHasFixedSize(true)
+        var Hair_Gs=ArrayList<Hair_Gs>()
         databaseReference!!.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
-                for (dataSnapshot in snapshot.children) {
-                    if(dataSnapshot.exists()) {
+                for (values in snapshot.children) {
+                    if(snapshot.exists()) {
 
-                        val hair_gs = dataSnapshot.getValue(Hair_Gs!!::class.java)
-                        Hair_Gs!!.add(hair_gs)
+                        val hair = values.getValue(Hair_Gs!!::class.java)
+                        Hair_Gs!!.add(hair)
                     }
                 }
                 hair_adapter = Hair_adapter(this@Home, Hair_Gs!!)
