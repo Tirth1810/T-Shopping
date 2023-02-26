@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "211327367389",
+    "firebase_url": "https://t-shopping-7ba65-default-rtdb.firebaseio.com",
+    "project_id": "t-shopping-7ba65",
+    "storage_bucket": "t-shopping-7ba65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211327367389:android:a15b816b757719c0280334",
+        "android_client_info": {
+          "package_name": "com.example.t_shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211327367389-nrsfeu24v4ueaae3qlpv0a0ginl5or6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.t_shopping",
+            "certificate_hash": "d7ed820471323959bb99195fd2aafa9e5cc110ea"
+          }
+        },
+        {
+          "client_id": "211327367389-c2qmtitqurasu932dsl3errsqo9kq5a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrzwkUs1E2hQUhjEnWUYJHEcgeoYWAzoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211327367389-c2qmtitqurasu932dsl3errsqo9kq5a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

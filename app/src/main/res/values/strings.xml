@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">T-shopping</string>
+    <string name="facebook_app_id">527453898619476</string>
+    <string name="fb_login_protocol_scheme">fb527453898619476</string>
+    <string name="facebook_client_token">5a0f12388d815e9cbf9c74c47c92d870</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
